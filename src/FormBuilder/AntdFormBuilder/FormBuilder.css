@@ -1,0 +1,39 @@
+.ant-form-item.ant-form-item-view-mode {
+    margin-bottom: 20px;
+}
+.ant-form-item.ant-form-item-view-mode-v4 {
+    margin-bottom: 5px;
+}
+
+.ant-form-item-view-mode .ant-form-item-label {
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.ant-form-item-view-mode .ant-form-item-control {
+    line-height: 1.5;
+}
+
+.ant-form-item-children .antd-form-builder-string-content {
+    line-height: 1.5;
+    display: inline-block;
+    padding-top: 9px;
+}
+
+.ant-form-item-view-mode .antd-form-builder-string-content {
+    display: inline;
+    padding-top: 0;
+}
+
+.antd-form-builder-question-icon {
+    fill: #40a9ff;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+/* overwrite */
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin: 0 8px 0 0 !important;
+}

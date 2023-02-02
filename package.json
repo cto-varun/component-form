@@ -1,0 +1,31 @@
+{
+  "name": "@ivoyant/component-form",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "title": "Form",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "ist s",
+    "build": "ist b",
+    "storybook": "ist storybook",
+    "prepublish": "ist b -u"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@ivoyant/component-cache": "^1.0.0",
+    "@ivoyant/component-jsx": "1.0.0",
+    "@ivoyant/component-message-bus": "^1.0.0",
+    "chalk": "4.1.2"
+  },
+  "devDependencies": {
+    "@ivoyant/cli": "^1.1.2"
+  }
+}
